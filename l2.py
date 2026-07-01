@@ -39,7 +39,7 @@ Without customer segmentation they cannot:
 """)
 
 with col2:
-    st.success("
+    st.success("""
     🎯 Business Objective
 
 ✔ Perform Exploratory Data Analysis
@@ -51,7 +51,7 @@ with col2:
 ✔ Build Interactive Dashboard
 
 ✔ Recommend Similar Products
-")
+""")
 
 st.markdown("---")
 
