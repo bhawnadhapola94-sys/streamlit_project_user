@@ -12,19 +12,31 @@ st.title("🛒 Shopper Spectrum")
 st.subheader("Customer Segmentation & Product Recommendation System")
 st.markdown("---")
 col1, col2 = st.columns(2)
-with col1:st.info("""Business Problem Retail businesses generate huge amounts of sales data but often struggle to understand customer purchasing behaviour.Without customer segmentation they cannot:- Identify loyal customers
-- Reduce customer churn
-- Increase sales
-- Improve marketing strategies
-""")
+
 with col1:
     st.info("""
-### Business Problem
+### 📌 Business Problem
+
 Retail businesses generate huge amounts of sales data but often struggle to understand customer behavior.
 
 - Reduce customer churn
 - Increase sales
 - Improve marketing strategies
+""")
+
+with col2:
+    st.success("""
+### 🎯 Business Objective
+
+✔ Perform Exploratory Data Analysis
+
+✔ Build RFM Model
+
+✔ Segment Customers
+
+✔ Build Interactive Dashboard
+
+✔ Recommend Similar Products
 """)
 st.markdown("---")
 st.subheader("📊 Dataset Overview")
