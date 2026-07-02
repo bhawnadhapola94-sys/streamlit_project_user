@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 st.set_page_config(page_title="Shopper Spectrum",page_icon="🛒", layout="wide")
 # Load Dataset
-df = pd.read_csv(r"C:\Users\Admin\OneDrive\Desktop\bhawna python\market_data\online_retail_small.csv")
+df = pd.read_csv(r"online_retail_small.csv")
 # Convert Date
 df["InvoiceDate"] = pd.to_datetime(df["InvoiceDate"])
 # Sales Column
